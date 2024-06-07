@@ -6,8 +6,7 @@ import homeBanner from "/public/images/home-banner.png";
 import "./home.css";
 
 export default function Home() {
-  const primaryColor = "#EC407A";
-  const fontHighlightClass = `text-[${primaryColor}]`;
+  const fontHighlightClass = `text-[#EC407A}]`;
 
   return (
     <div className="w-screen flex flex-col px-[60px] items-center">
@@ -41,12 +40,12 @@ export default function Home() {
               onClick={() => {
                 window.open("https://podcast.healing-journey.asia");
               }}
-              className={`bg-[#131418] text-[0.9rem] font-medium rounded-[2rem] text-[white] px-[30px] py-[15px] hover:bg-[${primaryColor}] transition-all`}
+              className={`bg-[#131418] text-[0.9rem] font-medium rounded-[2rem] text-[white] px-[30px] py-[15px] hover:bg-[#EC407A] transition-all`}
             >
               Listen Here
             </button>
             <button
-              className={`text-[1rem] font-bold rounded-[2rem] text-[rgba(0,0,0,0.8)] px-[30px] py-[15px] hover:text-[${primaryColor}] transition-all`}
+              className={`text-[1rem] font-bold rounded-[2rem] text-[rgba(0,0,0,0.8)] px-[30px] py-[15px] hover:text-[#EC407A] transition-all`}
             >
               Learn more
             </button>
