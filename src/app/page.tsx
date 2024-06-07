@@ -6,8 +6,6 @@ import homeBanner from "/public/images/home-banner.png";
 import "./home.css";
 
 export default function Home() {
-  const fontHighlightClass = `text-[#EC407A}]`;
-
   return (
     <div className="w-screen flex flex-col px-[60px] items-center">
       <div className="w-[80%] flex flex-row items-center justify-center">
@@ -28,12 +26,11 @@ export default function Home() {
             Figureoutable
           </div>
           <div className="text-[1.3rem] font-semibold text-[rgba(0,0,0,0.7)]">
-            <span className={fontHighlightClass}>Take it</span> day by day.{" "}
-            <br />
-            <span className={fontHighlightClass}>Be grateful</span> for every
+            <span className="text-[#EC407A}]">Take it</span> day by day. <br />
+            <span className="text-[#EC407A}]">Be grateful</span> for every
             breath. <br />
-            <span className={fontHighlightClass}>Life</span> is a collection of{" "}
-            <span className={fontHighlightClass}>moments.</span> <br />
+            <span className="text-[#EC407A}]">Life</span> is a collection of{" "}
+            <span className="text-[#EC407A}]">moments.</span> <br />
           </div>
           <div className="w-full flex flex-row mt-[20px] gap-[15px] items-center">
             <button
