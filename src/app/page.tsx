@@ -26,11 +26,11 @@ export default function Home() {
             Figureoutable
           </div>
           <div className="text-[1.3rem] font-semibold text-[rgba(0,0,0,0.7)]">
-            <span className="text-[#EC407A}]">Take it</span> day by day. <br />
-            <span className="text-[#EC407A}]">Be grateful</span> for every
+            <span className="text-[#EC407A]">Take it</span> day by day. <br />
+            <span className="text-[#EC407A]">Be grateful</span> for every
             breath. <br />
-            <span className="text-[#EC407A}]">Life</span> is a collection of{" "}
-            <span className="text-[#EC407A}]">moments.</span> <br />
+            <span className="text-[#EC407A]">Life</span> is a collection of{" "}
+            <span className="text-[#EC407A]">moments.</span> <br />
           </div>
           <div className="w-full flex flex-row mt-[20px] gap-[15px] items-center">
             <button
