@@ -1,0 +1,31 @@
+body {
+  animation: appear 2s ease;
+}
+
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.tilt {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: tilting 5s cubic-bezier(0.37, 0, 0.63, 1) infinite;
+}
+
+@keyframes tilting {
+  0% {
+    transform: rotate(1deg);
+  }
+  50% {
+    transform: rotate(-1deg);
+  }
+  100% {
+    transform: rotate(1deg);
+  }
+}
